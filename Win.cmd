@@ -12,7 +12,7 @@
 
 
 ::  To activate, run the script with "/HWID" parameter or change 0 to 1 in below line
-set _act=1
+set _act=0
 
 ::  To disable changing edition if current edition doesn't support HWID activation, change the value to 1 from 0 or run the script with "/HWID-NoEditionChange" parameter
 set _NoEditionChange=0
@@ -2140,4 +2140,3 @@ exit /b
 
 ::========================================================================================================================================
 :: Leave empty line below
-
